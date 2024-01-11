@@ -640,7 +640,52 @@
                  "width":477.333333333333,
                  "x":1280.66666666667,
                  "y":3.33333333333343
+                }, 
+                {
+                 "height":36.0000000000001,
+                 "id":21,
+                 "name":"to-gym",
+                 "properties":[
+                        {
+                         "name":"exitUrl",
+                         "type":"string",
+                         "value":"gym"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":28.6666666666665,
+                 "x":1347.33333333333,
+                 "y":405.333333333333
+                }, 
+                {
+                 "height":36.0000000000001,
+                 "id":24,
+                 "name":"from-gym",
+                 "properties":[
+                        {
+                         "name":"start",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":90.6666666666665,
+                 "x":1409.33333333333,
+                 "y":447.333333333333
                 }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":68,
+         "name":"configuration",
+         "objects":[],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -887,8 +932,8 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":68,
- "nextobjectid":21,
+ "nextlayerid":69,
+ "nextobjectid":25,
  "orientation":"orthogonal",
  "properties":[
         {
